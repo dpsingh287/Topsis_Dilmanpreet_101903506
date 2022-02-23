@@ -14,18 +14,18 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     license="MIT",
     url="https://github.com/dpsingh287/topsis-test-101",
-    download_url="https://github.com/dpsingh287/topsis-test-101/archive/refs/tags/v_01.tar.gz",
+    download_url="https://github.com/dpsingh287/topsis_dilmanpreet_101903506/archive/refs/tags/v10.tar.gz",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    packages=["topsis_test_101"],
+    packages=["topsis_dilmanpreet_101903506"],
     include_package_data=True,
     install_requires='pandas',
     entry_points={
         "console_scripts": [
-            "topsis=Topsis_Dilmanpreet_101903506.101903506:main",
+            "topsis=topsis_dilmanpreet_101903506.101903506:main",
         ]
     },
 )
